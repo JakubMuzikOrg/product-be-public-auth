@@ -1,0 +1,45 @@
+name: Feature
+description: New feature
+title: "[Feature]: "
+type: 'Feature'
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this Feature specification!
+  - type: textarea
+    id: business-spec
+    attributes:
+      label: Business specification
+      description: Please add bussiness specification
+      placeholder: As a user, I want..
+    validations:
+      required: true
+  - type: textarea
+    id: technical-spec
+    attributes:
+      label: Technical specification
+      description: Please add technical specification
+      placeholder: API Specification..
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Product
+      description: Affected product
+      options:
+        - Auth Server
+        - Mobile App
+      default: 0
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
