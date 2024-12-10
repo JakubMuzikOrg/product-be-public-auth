@@ -2,6 +2,7 @@ name: Task
 description: Generic task
 title: "[Task]: "
 type: 'Task'
+projects: ["JakubMuzikOrg/3"]
 
 body:
   - type: markdown

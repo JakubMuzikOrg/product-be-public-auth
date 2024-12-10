@@ -2,6 +2,7 @@ name: Subtask
 description: Subtask
 title: "[Subtask]: "
 type: 'Subtask'
+projects: ["JakubMuzikOrg/3"]
 
 body:
   - type: markdown

@@ -2,6 +2,7 @@ name: Feature
 description: New feature
 title: "[Feature]: "
 type: 'Feature'
+projects: ["JakubMuzikOrg/3"]
 
 body:
   - type: markdown

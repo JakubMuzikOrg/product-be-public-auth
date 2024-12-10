@@ -2,6 +2,7 @@ name: Tech task
 description: Tech task
 title: "[Tech task]: "
 type: 'Tech task'
+projects: ["JakubMuzikOrg/3"]
 
 body:
   - type: markdown
